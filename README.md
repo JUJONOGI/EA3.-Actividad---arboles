@@ -2,7 +2,7 @@
 Desarrollo de la actividad de árboles
 # 🌳 Árbol Binario de Búsqueda en Java
 
-En este proyecto se implementa un Árbol Binario de Búsqueda (ABB) simple en Java, con un menú en consola que permite:
+En este proyecto se implementa un Árbol Binario de Búsqueda (ABB) simple en Java:
 
 - Insertar números
 - Mostrar los datos ordenados (Recorrido Inorden)
@@ -13,13 +13,12 @@ En este proyecto se implementa un Árbol Binario de Búsqueda (ABB) simple en Ja
 
 ---
 
-## 💡 ¿Qué es un Árbol Binario de Búsqueda?
+## 💡 ¿Qué es un Árbol Binario de Búsqueda
 
-Un Árbol Binario de Búsqueda (Binary Search Tree) es una estructura de datos en forma de árbol donde:
+Podemos definir un árbol binario de busqueda como una estructura de datos en forma de arbol que deben cumplir las siguientes caracteristicas:
 
 - El hijo izquierdo de un nodo contiene valores **menores**
 - El hijo derecho contiene valores **mayores**
 
-Esto permite búsquedas, inserciones y recorridos eficientes.
+  esto nos va a permitir búsquedas, inserciones y recorridos mas eficientes.
 
----
