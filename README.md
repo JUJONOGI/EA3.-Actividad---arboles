@@ -22,3 +22,10 @@ Podemos definir un árbol binario de busqueda como una estructura de datos en fo
 
   esto nos va a permitir búsquedas, inserciones y recorridos mas eficientes.
 
+## 🧱 ¿Cómo se implementó?
+El programa fue desarrollado en Java utilizando programación orientada a objetos. La solución está dividida en tres partes principales:
+
+1. Clase Node
+2. Clase Tree
+3. Clase Main
+  
