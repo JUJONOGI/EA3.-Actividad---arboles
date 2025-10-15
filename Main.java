@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Clase que representa un nodo del árbol binario
+// Clase que representa un nodo del arbol binario
 class Node {
     int key;
     Node left, right;
@@ -11,7 +11,7 @@ class Node {
     }
 }
 
-// Clase que representa el Árbol Binario de Búsqueda
+// Clase que representa el arbol binario de búsqueda
 class Tree {
     Node root;
 
@@ -24,7 +24,7 @@ class Tree {
         root = insertRec(root, key);
     }
 
-    // Inserción de nosdos recursiva
+    // Insertar nodos de forma recursiva
     Node insertRec(Node root, int key) {
         if (root == null) {
             return new Node(key);
@@ -36,7 +36,7 @@ class Tree {
         return root;
     }
 
-    // Búsqueda pública
+    // Búsqueda 
     boolean search(int key) {
         return searchRec(root, key);
     }
@@ -50,7 +50,7 @@ class Tree {
         return key < root.key ? searchRec(root.left, key) : searchRec(root.right, key);
     }
 
-    // Recorrido inorden público
+    // Recorrido inorden 
     void inorder() {
         inorderRec(root);
         System.out.println();
@@ -65,7 +65,7 @@ class Tree {
         }
     }
 
-    // Contar nodos del árbol
+    // Contar nodos que tiene el árbol
     int contarNodos() {
         return contarNodosRec(root);
     }
