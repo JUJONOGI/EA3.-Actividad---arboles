@@ -31,3 +31,5 @@ El programa fue desarrollado en Java utilizando programación orientada a objeto
    
 ## 🛠️ Ejecución del programa
 <img width="1740" height="925" alt="Captura de pantalla 2025-10-14 142741" src="https://github.com/user-attachments/assets/8f809ebf-4f75-4582-8149-02e2fd769916" />
+
+presentado por: Juan José Noreña Giraldo
